@@ -19,6 +19,7 @@ Public Sub Initialize( dbName As String)
 	
 End Sub
 
+' Save post to db
 Public Sub Save_Post( data As String) 
 	
 	jsParser.Initialize(data)
